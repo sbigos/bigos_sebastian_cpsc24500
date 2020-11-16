@@ -110,23 +110,15 @@ class TilePanel extends JPanel implements MouseListener {
     }
     @Override
     public void mousePressed(MouseEvent e) {
-        tiles.get(0).setRandom(0, 1);
-        repaint();
     }
     @Override
     public void mouseEntered(MouseEvent e) {
-        tiles.get(0).setRandom(0, 1);
-        repaint();
     }
     @Override
     public void mouseReleased(MouseEvent e) {
-        tiles.get(0).setRandom(0, 1);
-        repaint();
     }
     @Override
     public void mouseExited(MouseEvent e) {
-        tiles.get(0).setRandom(0, 1);
-        repaint();
     }
     @Override
     public void paintComponent(Graphics g) {
