@@ -35,9 +35,7 @@ import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
-import javax.xml.datatype.XMLGregorianCalendar;
 
-import org.jcp.xml.dsig.internal.dom.XMLDSigRI;
 /**
  * This class describes the tile object, which are the slots that make up the game
  * Initializes some varaibles
@@ -110,7 +108,26 @@ class TilePanel extends JPanel implements MouseListener {
         tiles.get(0).setRandom(0, 1);
         repaint();
     }
-
+    @Override
+    public void mousePressed(MouseEvent e) {
+        tiles.get(0).setRandom(0, 1);
+        repaint();
+    }
+    @Override
+    public void mouseEntered(MouseEvent e) {
+        tiles.get(0).setRandom(0, 1);
+        repaint();
+    }
+    @Override
+    public void mouseReleased(MouseEvent e) {
+        tiles.get(0).setRandom(0, 1);
+        repaint();
+    }
+    @Override
+    public void mouseExited(MouseEvent e) {
+        tiles.get(0).setRandom(0, 1);
+        repaint();
+    }
     @Override
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
